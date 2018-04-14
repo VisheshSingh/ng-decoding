@@ -5,13 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NamesComponent } from './names/names.component';
 import { NameTagComponent } from './name-tag/name-tag.component';
+import { OuterComponent } from './outer/outer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NamesComponent,
-    NameTagComponent
+    NameTagComponent,
+    OuterComponent
   ],
   imports: [
     BrowserModule,FormsModule
