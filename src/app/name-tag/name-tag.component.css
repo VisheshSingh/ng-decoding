@@ -1,0 +1,10 @@
+.nameTag-container{
+    width: 150px;
+    height:150px;
+    background: darkgreen;
+    color: #fff;
+    display: inline-block; 
+    text-align: center;
+    line-height: 150px;
+    margin-right: 5px;
+}

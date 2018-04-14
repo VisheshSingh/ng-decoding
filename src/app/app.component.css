@@ -1,3 +1,5 @@
-h1{
-    color: dodgerblue;
+.main-container{
+    margin: 5px;
+    border: 1px solid green;
+    padding: 5px;
 }
