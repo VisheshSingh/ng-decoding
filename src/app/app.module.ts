@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NamesComponent } from './names/names.component';
 import { NameTagComponent } from './name-tag/name-tag.component';
 import { OuterComponent } from './outer/outer.component';
+import { InnerComponent } from './inner/inner.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { OuterComponent } from './outer/outer.component';
     AppComponent,
     NamesComponent,
     NameTagComponent,
-    OuterComponent
+    OuterComponent,
+    InnerComponent
   ],
   imports: [
     BrowserModule,FormsModule
